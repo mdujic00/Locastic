@@ -1,0 +1,43 @@
+.footer{
+	background:$secondary-col;
+	height:70px;
+	
+	div{
+		display:inline-block;
+		width:200px;
+		margin-top:16px;
+		font-family:Roboto-Regular;
+		font-size:16px;
+		color:$white;
+		letter-spacing:0px;
+		line-height:36px;
+	}
+	
+	.right{
+		float:right;
+		text-align:right;
+	}
+
+	.left{
+		float:left;
+	}
+}
+
+@media only screen and (max-width:460px){
+	.footer{
+		height:119px;
+		max-width:460px;
+		width:100%;
+		margin:0 auto !important;
+		text-align:center;
+	
+		.right{
+			float:inherit;
+			text-align:center;
+		}
+
+		.left{
+			float:inherit;
+		}
+	}
+}

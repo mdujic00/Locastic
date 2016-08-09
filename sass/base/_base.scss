@@ -1,0 +1,12 @@
+body{
+	font-family:'Roboto-regular';
+	background:$white;
+	@include default-text-color($secondary-col);
+}
+
+* {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
